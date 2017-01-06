@@ -15,6 +15,7 @@
 		ECB840241E1B3FA10089661E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB840221E1B3FA10089661E /* LaunchScreen.storyboard */; };
 		ECB8402F1E1B3FA10089661E /* DigitalClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8402E1E1B3FA10089661E /* DigitalClockTests.swift */; };
 		ECB8403A1E1B3FA10089661E /* DigitalClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB840391E1B3FA10089661E /* DigitalClockUITests.swift */; };
+		ECB840481E1B43370089661E /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB840471E1B43370089661E /* digital-7.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ECB840351E1B3FA10089661E /* DigitalClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB840391E1B3FA10089661E /* DigitalClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockUITests.swift; sourceTree = "<group>"; };
 		ECB8403B1E1B3FA10089661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB840471E1B43370089661E /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				ECB840201E1B3FA10089661E /* Assets.xcassets */,
 				ECB840221E1B3FA10089661E /* LaunchScreen.storyboard */,
 				ECB840251E1B3FA10089661E /* Info.plist */,
+				ECB840471E1B43370089661E /* digital-7.ttf */,
 				ECB8401D1E1B3FA10089661E /* DigitalClock.xcdatamodeld */,
 			);
 			path = DigitalClock;
@@ -241,6 +244,7 @@
 				ECB840241E1B3FA10089661E /* LaunchScreen.storyboard in Resources */,
 				ECB840211E1B3FA10089661E /* Assets.xcassets in Resources */,
 				ECB8401C1E1B3FA10089661E /* Main.storyboard in Resources */,
+				ECB840481E1B43370089661E /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +424,7 @@
 				DEVELOPMENT_TEAM = J5EPXUD2ER;
 				INFOPLIST_FILE = DigitalClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.DigitalClock;
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.trafiicLightGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,7 +437,7 @@
 				DEVELOPMENT_TEAM = J5EPXUD2ER;
 				INFOPLIST_FILE = DigitalClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.DigitalClock;
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.trafiicLightGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
